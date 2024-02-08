@@ -52,14 +52,6 @@ export default function Home() {
             >
               Tailwind CSS
             </Link>
-            . View the source code on{" "}
-            <Link
-              className="underline"
-              href="https://github.com/richardfeng-30/smes-coding-club"
-              target="_blank"
-            >
-              Github
-            </Link>
             .
           </p>
         </footer>
