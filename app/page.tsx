@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <>
       <div className="mt-32">
-        <p className="text-xl sm:text-2xl">Welcome to the</p>
+        <p className="text-xl md:text-2xl">Welcome to the</p>
         <div className="lg:h-4"></div>
-        <h1 className="text-5xl sm:text-7xl font-bold">SMES Coding Club</h1>
-        <p className="text-slate-400 max-w-prose mt-16 text-justify sm:text-lg !leading-8">
+        <h1 className="text-5xl md:text-7xl font-bold">SMES Coding Club</h1>
+        <p className="max-w-prose mt-16 text-justify md:text-lg !leading-8">
           The Coding Club seeks to inspire and educate students in computer
           science by providing a welcoming and supportive learning environment.
           The Coding Club is a place to learn, build projects, and participate
@@ -33,12 +33,12 @@ export default function Home() {
             About us
           </Link>
         </div>
-        <footer className="mt-60 mb-24 text-slate-400 text-lg leading-8">
+        <footer className="mt-60 mb-24 md:text-lg leading-8">
           <p>© 2024 SMES Coding Club</p>
           <p>
             This site is built with{" "}
             <Link
-              className="underline"
+              className="underline hover:text-gray-200"
               href="https://nextjs.org/"
               target="_blank"
             >
@@ -46,7 +46,7 @@ export default function Home() {
             </Link>{" "}
             and{" "}
             <Link
-              className="underline"
+              className="underline hover:text-gray-200"
               href="https://tailwindcss.com/"
               target="_blank"
             >
